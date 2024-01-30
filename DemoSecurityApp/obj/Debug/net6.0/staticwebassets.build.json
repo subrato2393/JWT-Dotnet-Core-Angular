@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vW4d3jtCyJQ4Eeozk9uFQYsFZuOBW+xkcHm41o5EAR4=",
+  "Source": "DemoSecurityApp",
+  "BasePath": "_content/DemoSecurityApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

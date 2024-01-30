@@ -1,0 +1,97 @@
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\bin\Debug\net6.0\appsettings.Development.json
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\bin\Debug\net6.0\appsettings.json
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\bin\Debug\net6.0\DemoSecurityApp.exe
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\bin\Debug\net6.0\DemoSecurityApp.deps.json
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\bin\Debug\net6.0\DemoSecurityApp.runtimeconfig.json
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\bin\Debug\net6.0\DemoSecurityApp.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\bin\Debug\net6.0\DemoSecurityApp.pdb
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.csproj.AssemblyReference.cache
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.AssemblyInfoInputs.cache
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.AssemblyInfo.cs
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.csproj.CoreCompileInputs.cache
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.MvcApplicationPartsAssemblyInfo.cs
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\staticwebassets\msbuild.DemoSecurityApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\staticwebassets\msbuild.build.DemoSecurityApp.props
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DemoSecurityApp.props
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DemoSecurityApp.props
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\staticwebassets.build.json
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\staticwebassets.development.json
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\scopedcss\bundle\DemoSecurityApp.styles.css
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.csproj.CopyComplete
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\refint\DemoSecurityApp.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.pdb
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.genruntimeconfig.cache
+D:\Authentication an Authorization(Dot net Core And ANgular)\Demo JWT .NET Angular\DemoSecurityApp\DemoSecurityApp\obj\Debug\net6.0\ref\DemoSecurityApp.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\appsettings.Development.json
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\appsettings.json
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\DemoSecurityApp.exe
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\DemoSecurityApp.deps.json
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\DemoSecurityApp.runtimeconfig.json
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\DemoSecurityApp.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\DemoSecurityApp.pdb
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.csproj.AssemblyReference.cache
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.AssemblyInfoInputs.cache
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.AssemblyInfo.cs
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.csproj.CoreCompileInputs.cache
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.MvcApplicationPartsAssemblyInfo.cs
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\staticwebassets\msbuild.DemoSecurityApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\staticwebassets\msbuild.build.DemoSecurityApp.props
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DemoSecurityApp.props
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DemoSecurityApp.props
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\staticwebassets.build.json
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\staticwebassets.development.json
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\scopedcss\bundle\DemoSecurityApp.styles.css
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.csproj.CopyComplete
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\refint\DemoSecurityApp.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.pdb
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\DemoSecurityApp.genruntimeconfig.cache
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\obj\Debug\net6.0\ref\DemoSecurityApp.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\Humanizer.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Authentication an Authorization(Dot net Core And ANgular)\JWT-Dotnet-Core-Angular\DemoSecurityApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
