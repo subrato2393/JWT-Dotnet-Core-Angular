@@ -1,5 +1,6 @@
 ﻿using DemoSecurityApp.Context;
 using DemoSecurityApp.EntityModel;
+using DemoSecurityApp.Helpers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -63,6 +64,10 @@ namespace DemoSecurityApp.Controllers
             {
                 return NotFound("Password can't be null");
             }
+
+            user.Password = PasswordHasher.HashPassword(user.Password);
+            user.Role = "User";
+            user.Token = "";
 
             await _context.Users.AddAsync(user);
             await _context.SaveChangesAsync();
