@@ -10,7 +10,7 @@ import { AuthService } from 'src/app/services/auth.service';
 })
 export class LoginComponent implements OnInit {
 
-  loginForm!:FormGroup;
+  loginForm!:FormGroup;   
   isFormSubmitted:boolean = false;
 
   constructor(private fb:FormBuilder,private router:Router,private authService:AuthService) { }

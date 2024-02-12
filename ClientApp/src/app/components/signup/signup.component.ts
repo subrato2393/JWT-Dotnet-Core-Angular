@@ -34,12 +34,14 @@ initializeForm(){
       this.authService.signUp(this.signupForm.value).subscribe(
         (next)=>{
         console.log(next);
+       // alert(next.message);
          // Clear the form after successful submission
          this.signupForm.reset();
          this.router.navigateByUrl('/login')
       },
       (error)=>{
         console.log(error);
+        alert(error.error);
         this.signupForm.reset();
       }
       )
