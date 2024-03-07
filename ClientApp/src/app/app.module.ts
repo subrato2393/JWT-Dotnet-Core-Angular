@@ -8,6 +8,8 @@ import { LoginComponent } from './components/login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from  '@angular/common/http';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { ToastrModule } from 'ngx-toastr';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     DashboardComponent
   ],
   imports: [
+    ToastrModule.forRoot(),
+    BrowserAnimationsModule,
     BrowserModule,
     ReactiveFormsModule,
     AppRoutingModule,

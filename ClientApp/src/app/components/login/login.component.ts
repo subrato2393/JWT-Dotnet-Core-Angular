@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { AuthService } from 'src/app/services/auth.service';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-login',
@@ -13,7 +14,7 @@ export class LoginComponent implements OnInit {
   loginForm!:FormGroup;   
   isFormSubmitted:boolean = false;
 
-  constructor(private fb:FormBuilder,private router:Router,private authService:AuthService) { }
+  constructor(private fb:FormBuilder,private router:Router,private authService:AuthService, private toastService:ToastrService) { }
 
   ngOnInit(): void {
     this.loginForm =this.fb.group({
@@ -29,13 +30,17 @@ export class LoginComponent implements OnInit {
       (next)=>
       {
         //const nextJson = JSON.stringify(next);
-        alert(next.message)
+        this.toastService.success("Successfully Saved",'Success',{
+         timeOut:1000
+        })
+      //  alert(next.message)
         this.router.navigateByUrl('/dashboard')
         this.loginForm.reset();
       },
       (error)=>
       {
-        alert(error.error);
+        this.toastService.error("Failed")
+      //  alert(error.error);
         this.loginForm.reset();
       })
     }

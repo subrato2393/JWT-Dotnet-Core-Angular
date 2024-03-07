@@ -28,6 +28,7 @@
             ],
 
             "styles": [
+             "node_modules/ngx-toastr/toastr.css",
 	            "src/assets/vendor/bootstrap/css/bootstrap.min.css",
               "src/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css",
               "src/assets/fonts/iconic/css/material-design-iconic-font.min.css",
@@ -38,7 +39,7 @@
               "src/assets/vendor/daterangepicker/daterangepicker.css",
               "src/assets/css/util.css"
             ],
-            "scripts": [            
+            "scripts": [                  
               "src/assets/vendor/jquery/jquery-3.2.1.min.js",
               "src/assets/vendor/animsition/js/animsition.min.js",
               "src/assets/vendor/bootstrap/js/popper.js",
