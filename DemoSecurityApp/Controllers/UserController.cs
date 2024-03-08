@@ -1,9 +1,13 @@
 ﻿using DemoSecurityApp.Context;
 using DemoSecurityApp.EntityModel;
 using DemoSecurityApp.Helpers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -49,10 +53,47 @@ namespace DemoSecurityApp.Controllers
                 {
                     return NotFound("user can't be null");
                 }
+
+                userEntity.Token = CreateJwt(userEntity);
+                return Ok(new
+                {
+                    Token = userEntity.Token,
+                    Message = "Login Success"
+                });
             }
-            return Ok(new { Message = "Login Success" });
+            return BadRequest("User Not Valid");
         }
 
+       // [Authorize]
+        [HttpGet]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            return Ok(await _context.Users.ToListAsync());
+        }
+
+        private string CreateJwt(User userEntity)
+        {
+            var jwtTokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes("thisismysecretkey.....");
+            var identity = new ClaimsIdentity(new Claim[]
+            {
+                new Claim(ClaimTypes.Name,userEntity.FirstName),
+                new Claim(ClaimTypes.Role,userEntity.Role) 
+            });
+
+            var credentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256);
+
+            var tokenDescriptor = new SecurityTokenDescriptor()
+            {
+                Subject = identity,
+                Expires = DateTime.Now.AddMinutes(5),
+                SigningCredentials = credentials
+            };
+
+            var token = jwtTokenHandler.CreateToken(tokenDescriptor);
+
+            return jwtTokenHandler.WriteToken(token);
+        }
 
         [HttpPost]
         [Route("signup")]
@@ -81,7 +122,6 @@ namespace DemoSecurityApp.Controllers
 
                 user.Password = PasswordHasher.HashPassword(user.Password);
                 user.Role = "User";
-                user.Token = "";
 
                 await _context.Users.AddAsync(user);
                 await _context.SaveChangesAsync();
@@ -114,6 +154,7 @@ namespace DemoSecurityApp.Controllers
         {
             return await _context.Users.AnyAsync(x => x.Email == email);
         }
+
 
         private string PassWordStrengthCheck(string password)
         {
