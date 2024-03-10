@@ -64,7 +64,7 @@ namespace DemoSecurityApp.Controllers
             return BadRequest("User Not Valid");
         }
 
-       // [Authorize]
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetAllUsers()
         {
