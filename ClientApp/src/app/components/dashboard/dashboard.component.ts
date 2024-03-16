@@ -10,9 +10,13 @@ import { AuthService } from 'src/app/services/auth.service';
 })
 export class DashboardComponent implements OnInit {
   users!:any[];
+  username!: string;
+  role!: string;
 
   constructor(private authService:AuthService,private router:Router,private toastService:ToastrService) { }
   ngOnInit(): void {
+    this.username =  this.authService.getUserNameFromToken();
+    this.role = this.authService.getRoleFromToken();
     this.getAllUserList();
   }
 
@@ -22,6 +26,10 @@ export class DashboardComponent implements OnInit {
       this.toastService.success('Logout successfully');
   }
    getAllUserList(){
+    console.log('role')
+    console.log(this.role)
+    console.log('Name')
+    console.log(this.username)
     this.authService.getAllUsers().subscribe(
       (res)=>
         {

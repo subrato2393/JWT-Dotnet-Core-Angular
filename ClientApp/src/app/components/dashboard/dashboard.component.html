@@ -1,5 +1,5 @@
 <button class="btn btn-primary" (click)="onLogout()">Logout</button>
-<p>dashboard works!</p>
+<p>{{username}} || {{role}}</p>
 <table class="table table-bordered">
 <thead>
 <th>
@@ -11,7 +11,7 @@
 <th>
     Email
 </th>
-<th>
+<th *ngIf="role === 'Admin'">
     Phone No
 </th>
 </thead>
@@ -20,7 +20,7 @@
     <td>{{user.firstName}}</td>
     <td>{{user.lastName}}</td>
     <td>{{user.email}}</td>
-    <td>{{user.phoneNo}}</td>
+    <td *ngIf="role === 'Admin'">{{user.phoneNo}}</td>
    </tr>
 </tbody>
 </table>
