@@ -1,6 +1,7 @@
 ﻿using DemoSecurityApp.Context;
 using DemoSecurityApp.EntityModel;
 using DemoSecurityApp.Helpers;
+using DemoSecurityApp.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -8,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -55,13 +57,75 @@ namespace DemoSecurityApp.Controllers
                 }
 
                 userEntity.Token = CreateJwt(userEntity);
+                var newAccessToken = userEntity.Token;
+                var newRefreshToken = CreateRefreshToken();
+                userEntity.RefreshToken = newRefreshToken;
+                await _context.SaveChangesAsync();
                 return Ok(new
                 {
-                    Token = userEntity.Token,
-                    Message = "Login Success"
+                    AccessToken = newAccessToken,
+                    RefreshToken = newRefreshToken
                 });
             }
             return BadRequest("User Not Valid");
+        }
+
+        [HttpPost("refresh")]
+        public async Task<ActionResult> Refresh(TokenDto tokenDto)
+        {
+            if (tokenDto == null)
+                return BadRequest();
+            string accessToken = tokenDto.AccessToken;
+            string refreshToken = tokenDto.RefreshToken;
+
+            var principle = GetPrincipleFromExpiryToken(accessToken);
+            var firstName = principle.Identity.Name;
+            var user =await _context.Users.FirstOrDefaultAsync(x => x.FirstName == firstName);
+            if (user is null || user.RefreshToken != refreshToken || user.RefreshTokenExpiryTime <= DateTime.Now)
+                return BadRequest("Invalid request");
+
+            var newAccessToken = CreateJwt(user);
+            var newRefreshToken = CreateRefreshToken();
+            user.RefreshToken = newRefreshToken;
+            await _context.SaveChangesAsync();
+            return Ok(new TokenDto()
+            {
+                AccessToken = newAccessToken,
+                RefreshToken = newRefreshToken,
+            });
+        }
+        private string CreateRefreshToken()
+        {
+            var tokenBytes = RandomNumberGenerator.GetBytes(64);
+            var refreshToken = Convert.ToBase64String(tokenBytes);
+
+            var tokenInUser = _context.Users.Any(x => x.RefreshToken == refreshToken);
+            if (tokenInUser)
+            {
+                return CreateRefreshToken();
+            }
+            return refreshToken;
+        }
+
+        private ClaimsPrincipal GetPrincipleFromExpiryToken(string token)
+        {
+            var key = Encoding.ASCII.GetBytes("thisismysecretkey.....");
+            var tokenValidationParameter = new TokenValidationParameters()
+            {
+                ValidateIssuerSigningKey = true,
+                IssuerSigningKey =new SymmetricSecurityKey(key),
+                ValidateAudience = false,
+                ValidateIssuer = false,
+                ValidateLifetime =false
+            };
+
+            var tokenHandler = new JwtSecurityTokenHandler();
+            SecurityToken securityToken;
+            var principle = tokenHandler.ValidateToken(token, tokenValidationParameter, out securityToken);
+            var jwtSecurityToken = securityToken as JwtSecurityToken;
+            if (jwtSecurityToken == null || !jwtSecurityToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase))
+                throw new SecurityTokenException("This is invalid token");
+            return principle;
         }
 
         [Authorize]

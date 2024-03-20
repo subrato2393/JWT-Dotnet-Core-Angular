@@ -30,5 +30,7 @@ namespace DemoSecurityApp.EntityModel
        /// [Required]
        /// </summary>
         public string? Token { get; set; }
-    }
+        public string? RefreshToken { get; set; }
+        public  DateTime? RefreshTokenExpiryTime { get; set; }         
+    } 
 }
