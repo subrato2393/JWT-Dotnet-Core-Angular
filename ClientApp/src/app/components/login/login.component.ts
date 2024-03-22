@@ -29,9 +29,10 @@ export class LoginComponent implements OnInit {
      this.authService.login(this.loginForm.value).subscribe(
       (next)=>
       {
-        this.authService.setToken(next.token)
+        this.authService.setToken(next.accessToken)
+        this.authService.setRefreshToken(next.refreshToken)
         console.log("token");
-        console.log(next.token);
+        console.log(next.accessToken);
         //const nextJson = JSON.stringify(next);
         this.toastService.success("Login Success",'Success',{
          timeOut:1000

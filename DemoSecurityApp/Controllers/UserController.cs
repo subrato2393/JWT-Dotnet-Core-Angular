@@ -70,7 +70,8 @@ namespace DemoSecurityApp.Controllers
             return BadRequest("User Not Valid");
         }
 
-        [HttpPost("refresh")]
+        [HttpPost]
+        [Route("refresh")]
         public async Task<ActionResult> Refresh(TokenDto tokenDto)
         {
             if (tokenDto == null)
@@ -150,7 +151,7 @@ namespace DemoSecurityApp.Controllers
             var tokenDescriptor = new SecurityTokenDescriptor()
             {
                 Subject = identity,
-                Expires = DateTime.Now.AddMinutes(5),
+                Expires = DateTime.Now.AddSeconds(10),
                 SigningCredentials = credentials
             };
 

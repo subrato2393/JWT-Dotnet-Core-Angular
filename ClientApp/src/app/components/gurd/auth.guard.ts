@@ -15,8 +15,6 @@ export class AuthGuard implements CanActivate {
     console.log("ssisi")
     console.log(isLogin);
     if(isLogin === true){
-      
-
       return true;
     }
     else{
