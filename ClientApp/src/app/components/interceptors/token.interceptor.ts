@@ -58,17 +58,22 @@ export class TokenInterceptor implements HttpInterceptor {
            this.authService.setToken(data.accessToken);
            this.authService.setRefreshToken(data.refreshToken);
            request = request.clone({setHeaders:{
-            Authorization:`Bearer${data.accessToken}`
+            Authorization:`Bearer ${data.accessToken}`
            }})
            return next.handle(request);
         }),
-         catchError((error:any)=>{
-           return throwError(()=>{
-             this.toaster.warning('Your token is expired, Please login again');
-             this.router.navigate(['login']);
-             return throwError(error);
-           })
-         })
+        //  catchError((error:any)=>{
+        //    return throwError(()=>{
+        //      this.toaster.warning('Your token is expired, Please login again');
+        //      this.router.navigate(['login']);
+        //      return throwError(error);
+        //    })
+        //  })
+        catchError((error:any)=>{
+         this.toaster.warning('Your token is expired, Please login again');
+         this.router.navigate(['login']);
+         return throwError(error);
+        })
       )
   }
 }

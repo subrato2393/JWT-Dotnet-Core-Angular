@@ -60,6 +60,7 @@ namespace DemoSecurityApp.Controllers
                 var newAccessToken = userEntity.Token;
                 var newRefreshToken = CreateRefreshToken();
                 userEntity.RefreshToken = newRefreshToken;
+                userEntity.RefreshTokenExpiryTime = DateTime.Now.AddDays(7);
                 await _context.SaveChangesAsync();
                 return Ok(new
                 {
